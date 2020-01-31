@@ -66,6 +66,7 @@ import {
 import {EditableToolbarTitleComponent} from "core-app/modules/common/editable-toolbar-title/editable-toolbar-title.component";
 import {UserAvatarComponent} from "core-components/user/user-avatar/user-avatar.component";
 import {EnterpriseBannerComponent} from "core-components/enterprise-banner/enterprise-banner.component";
+import {EnterpriseComponent} from "core-components/enterprise/enterprise.component";
 import {EnterpriseBannerBootstrapComponent} from "core-components/enterprise-banner/enterprise-banner-bootstrap.component";
 import {DynamicModule} from "ng-dynamic-component";
 import {VersionAutocompleterComponent} from "core-app/modules/common/autocomplete/version-autocompleter.component";
@@ -263,6 +264,7 @@ export function bootstrapModule(injector:Injector) {
     // Enterprise Edition
     EnterpriseBannerComponent,
     EnterpriseBannerBootstrapComponent,
+    EnterpriseComponent,
 
     // Autocompleter
     CreateAutocompleterComponent,
